@@ -128,6 +128,8 @@ END RESET RULES
     gap: 50px;
     justify-content: space-between;
     flex-basis: calc(100%/4);
+    flex-grow: 1;
+    font-size: 24px;
 }
 
 .row-hero-content{
@@ -149,7 +151,7 @@ END RESET RULES
     font-size: 52px;
     /* font-weight: 900; */
     /* transform: translate(0px, 45px); */
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .plan-card-title{
@@ -162,6 +164,12 @@ END RESET RULES
     font-weight: normal;
     padding: 25px 0 25px 0;
 }
+
+/* .facture-type-selection input{
+    border: 0px;
+    width: 100%;
+    height: 2em;
+} */
 
 .facture-type-selection label{
     padding-right: 70px;
@@ -197,6 +205,7 @@ END RESET RULES
     /* padding: 15px; */
     flex-basis: calc(100%/3);
     border: 1px solid gray;
+    font-size: 20px;
 }
 
 
@@ -280,6 +289,7 @@ ul[class^="type-"] li span:not(.plan-desc) {
     flex-basis: 100%;
     border: 1px solid gray;
     flex-direction: column;
+    font-size: 20px;
 }
 
 .card-container-bottom{
@@ -470,7 +480,7 @@ ul[class^="type-"] li span:not(.plan-desc) {
     align-items: flex-start;    
 }
 
-.partners-col.center-col p,span{
+.partners-col.center-col p{
     font-size: 23.5px;
 }
 
