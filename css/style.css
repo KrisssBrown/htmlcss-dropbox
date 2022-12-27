@@ -29,7 +29,7 @@ END RESET RULES
 ************************ */
 
 .nav-container{
-    height: 50px;
+    height: 70px;
     /* width: 100vw; */
     
 }
@@ -39,6 +39,8 @@ END RESET RULES
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    font-size: 22px;
+    line-height: 19px;
 } 
 
 /* .row:not(.no-gutter) {
@@ -48,12 +50,12 @@ END RESET RULES
 .nav-link-container-left,.nav-link-left,
 .nav-link-container-right,.nav-link-right{
     height: 100%;
-    gap: 25px;
+    gap: 40px;
 }
 
 .nav-link-container-left,
 .nav-link-container-right{
-    padding: 0 20px 0 20px;
+    padding: 0 20px ;
 }
 
 
@@ -106,7 +108,7 @@ END RESET RULES
 
 
 .main-container{
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -261,6 +263,7 @@ ul[class^="type-"]{
     flex-direction: column;
     gap: 10px 0;
     margin-bottom: 40px;
+    font-size: 24px;
 }
 
 .cta-button{
@@ -486,10 +489,13 @@ ul[class^="type-"] li span:not(.plan-desc) {
 
 /* .partners-col.center-col img::after{
 
-    content: "________________";
-    color: black;
-    border: 1px solid black;
-    font-size: 2px;
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #242424;
+    width: 50%;
+    margin-left: 15px;
+    top: 50%;
 } */
 
 /* COLLAB SECTION */
@@ -525,6 +531,33 @@ ul[class^="type-"] li span:not(.plan-desc) {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+}
+
+/* FAQ SECTION */
+
+.faq-content{
+    padding: 200px 0;
+}
+
+.faq-row{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.faq-col{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.faq-col i{
+    margin-right: 60px;
+}
+
+.faq-col h1{
+    font-size: 50px;
 }
     
 
