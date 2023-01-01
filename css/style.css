@@ -29,7 +29,7 @@ END RESET RULES
 ************************ */
 
 .nav-container{
-    height: 70px;
+    height: 112px;
     /* width: 100vw; */
     
 }
@@ -58,6 +58,10 @@ END RESET RULES
     padding: 0 20px ;
 }
 
+.nav-link-left img{
+    width: 170px;
+}
+
 
 .nav-link-container-left .nav-link-left{
     display: flex;
@@ -76,7 +80,7 @@ END RESET RULES
 
 .start-button{
     background-color: #0061ff;
-    padding: 5px 10px;
+    padding: 15px 25px;
     color: white;
 } 
 
@@ -87,6 +91,7 @@ END RESET RULES
     color: white;
     line-height: 42px;
     white-space: nowrap;
+    font-size: 18px;
 }
 
 .hero{
@@ -102,13 +107,12 @@ END RESET RULES
     /* width: 100vw; */
     height: 850px;
     margin-bottom: 100px;
-    
+}  
 
-}
 
 
 .main-container{
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -263,18 +267,19 @@ ul[class^="type-"]{
     flex-direction: column;
     gap: 10px 0;
     margin-bottom: 40px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .cta-button{
     background-color: #0061ff;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border: none;
     height: max-content;
 }
 
-.a-button{
+.cta-button .a-button{
     color: white;
+    font-size: 19px;
 }
 
 .type-cta .cta-button{
@@ -559,7 +564,56 @@ ul[class^="type-"] li span:not(.plan-desc) {
 .faq-col h1{
     font-size: 50px;
 }
+
+/* MAIN FOOTER SECTION */
+
+.bg-container-footer{
+    background-color: black;    
+}
+
+.bg-container-footer a{
+    color: white;
+    font-size: 24px;
+}
+
+.bg-container-footer h1{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.main-footer{
+       max-width: 1600px;
+       margin: 0 auto;
+       height: 800px;
+       display: flex;
+       align-items: center;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-basis: 100%;
+
+}
+
+/* .footer-col{
+    flex-basis: calc(100%/ 5);
+} */
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
     
+
+
 
 
 
