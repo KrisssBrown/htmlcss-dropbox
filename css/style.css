@@ -589,6 +589,7 @@ ul[class^="type-"] li span:not(.plan-desc) {
        height: 800px;
        display: flex;
        align-items: center;
+       position: relative;
 }
 
 .footer-row{
@@ -596,7 +597,7 @@ ul[class^="type-"] li span:not(.plan-desc) {
     justify-content: center;
     justify-content: space-between;
     flex-basis: 100%;
-
+    position: relative;
 }
 
 /* .footer-col{
@@ -609,6 +610,26 @@ ul[class^="type-"] li span:not(.plan-desc) {
     gap: 20px;
 }
 
+.footer-row::after{
+    content: "";
+    height: 3px;
+    width: 150px;
+    background-color: gray;
+    position: absolute;
+    bottom: -150px;
+}
+
+.language{
+    color: white;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    /* z-index: 999; */
+    bottom: 35px;
+    line-height: 24px;
+    /* background-color: red; */
+    font-size: 20px;
+}
 
 
     
