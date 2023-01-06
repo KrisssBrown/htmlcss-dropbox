@@ -590,6 +590,7 @@ ul[class^="type-"] li span:not(.plan-desc) {
        display: flex;
        align-items: center;
        position: relative;
+       flex-wrap: wrap;
 }
 
 .footer-row{
@@ -622,13 +623,14 @@ ul[class^="type-"] li span:not(.plan-desc) {
 .language{
     color: white;
     display: flex;
-    gap: 20px;
-    position: absolute;
-    /* z-index: 999; */
     bottom: 35px;
     line-height: 24px;
-    /* background-color: red; */
     font-size: 20px;
+}
+
+.language-content{
+    display: flex;
+    gap: 20px;
 }
 
 
