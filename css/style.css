@@ -19,6 +19,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 img{
     max-width: 100%;
 }
@@ -432,15 +436,20 @@ ul[class^="type-"] li span:not(.plan-desc) {
 
 }
 
+.bg-partners-container:hover{
+    border: 25px solid rgba(255, 255, 255, 0.5);
+
+}
+
 
 .bg-partners-container img{
     width: 250px;
     filter: invert(1);
 }
 
-.partners-bg-color-border{
+.partners-bg-color-1{
     background-color: #A2D39B;
-    border: 25px solid rgba(255, 255, 255, 0.5);
+    /* border: 25px solid rgba(255, 255, 255, 0.5); */
 }
 
 .partners-bg-color-2{
